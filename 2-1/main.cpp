@@ -8,4 +8,5 @@ int main() {
 	cout << "Der Umfang des Quadrats betraegt(in cm) : " << seitenlaenge * 4 << endl;
 	cout << "Die Flaeche des Quadrats betraegt (in cm*cm): " << seitenlaenge * seitenlaenge << endl;
 	system("PAUSE");
+	return 0;
 }

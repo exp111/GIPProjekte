@@ -15,4 +15,5 @@ int main() {
 	cout << "Kandidat 2 erhielt " << (stimmen2 / stimmen) * 100 << "% der Stimmen. " << endl;
 	cout << "Kandidat 3 erhielt " << (stimmen3 / stimmen) * 100 << "% der Stimmen. " << endl;
 	system("PAUSE");
+	return 0;
 }

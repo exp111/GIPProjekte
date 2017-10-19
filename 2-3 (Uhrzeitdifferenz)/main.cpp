@@ -33,4 +33,5 @@ int main() {
 	cout << "Die Differenz zwischen den beiden Uhrzeiten betraegt :" << endl;
 	cout << stunden3 << " Stunden, " << minuten3 << " Minuten und " << sekunden3 << " Sekunden." << endl;
 	system("PAUSE");
+	return 0;
 }
