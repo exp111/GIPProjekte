@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{4484443A-A575-43E8-96A0-538A445C016C}</ProjectGuid>
-    <RootNamespace>GIPProjekte</RootNamespace>
+    <ProjectGuid>{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}</ProjectGuid>
+    <RootNamespace>My21</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
-    <ProjectName>1-1 (Hallo Welt)</ProjectName>
+    <ProjectName>2-1 (Quadratberechnung)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

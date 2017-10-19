@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GIP Projekte", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1 (Hallo Welt)", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-1 (Quadratberechnung)", "2-1\2-1.vcxproj", "{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-2 (Stimmenberechnung)", "2-2 (Stimmenberechnung)\2-2 (Stimmenberechnung).vcxproj", "{4019E6F6-D129-4D67-A1CB-83718D9BC576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{4484443A-A575-43E8-96A0-538A445C016C}.Release|x64.Build.0 = Release|x64
 		{4484443A-A575-43E8-96A0-538A445C016C}.Release|x86.ActiveCfg = Release|Win32
 		{4484443A-A575-43E8-96A0-538A445C016C}.Release|x86.Build.0 = Release|Win32
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Debug|x64.ActiveCfg = Debug|x64
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Debug|x64.Build.0 = Debug|x64
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Debug|x86.Build.0 = Debug|Win32
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Release|x64.ActiveCfg = Release|x64
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Release|x64.Build.0 = Release|x64
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Release|x86.ActiveCfg = Release|Win32
+		{DDC0C43A-9BC7-488A-9BBB-933BFF055A10}.Release|x86.Build.0 = Release|Win32
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Debug|x64.ActiveCfg = Debug|x64
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Debug|x64.Build.0 = Debug|x64
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Debug|x86.ActiveCfg = Debug|Win32
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Debug|x86.Build.0 = Debug|Win32
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x64.ActiveCfg = Release|x64
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x64.Build.0 = Release|x64
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x86.ActiveCfg = Release|Win32
+		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

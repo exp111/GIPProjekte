@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{4484443A-A575-43E8-96A0-538A445C016C}</ProjectGuid>
-    <RootNamespace>GIPProjekte</RootNamespace>
+    <ProjectGuid>{4019E6F6-D129-4D67-A1CB-83718D9BC576}</ProjectGuid>
+    <RootNamespace>My22Stimmenberechnung</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
-    <ProjectName>1-1 (Hallo Welt)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
