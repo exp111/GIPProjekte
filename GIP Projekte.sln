@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-1 (Quadratberechnung)", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-2 (Stimmenberechnung)", "2-2 (Stimmenberechnung)\2-2 (Stimmenberechnung).vcxproj", "{4019E6F6-D129-4D67-A1CB-83718D9BC576}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-3 (Uhrzeitdifferenz)", "2-3 (Uhrzeitdifferenz)\2-3 (Uhrzeitdifferenz).vcxproj", "{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x64.Build.0 = Release|x64
 		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x86.ActiveCfg = Release|Win32
 		{4019E6F6-D129-4D67-A1CB-83718D9BC576}.Release|x86.Build.0 = Release|Win32
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Debug|x64.ActiveCfg = Debug|x64
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Debug|x64.Build.0 = Debug|x64
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Debug|x86.Build.0 = Debug|Win32
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Release|x64.ActiveCfg = Release|x64
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Release|x64.Build.0 = Release|x64
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Release|x86.ActiveCfg = Release|Win32
+		{2BFD535E-2DD5-48A8-98EC-06C1E16FE3C6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
