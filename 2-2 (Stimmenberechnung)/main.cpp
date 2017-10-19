@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-	int stimmen, stimmen1, stimmen2;
-	cout << "Bitte geben Sie die Seitenlaenge ein (in cm): ? ";
+	float stimmen, stimmen1, stimmen2;
+	cout << "Bitte geben Sie die Gesamtzahl der abgegebenen gueltigen Stimmen ein: ? ";
 	cin >> stimmen;
-	cout << "Bitte geben Sie die Seitenlaenge ein (in cm): ? ";
+	cout << "Bitte geben Sie die Anzahl Stimmen des ersten Kandidaten ein: ? ";
 	cin >> stimmen1;
-	cout << "Bitte geben Sie die Seitenlaenge ein (in cm): ? ";
+	cout << "Bitte geben Sie die Anzahl Stimmen des zweiten Kandidaten ein: ? ";
 	cin >> stimmen2;
-	int stimmen3 = stimmen - stimmen1 - stimmen2;
-	cout << "Die Flaeche des Quadrats betraegt (in cm*cm): " << stimmen3 << endl;
-	cout << "Die Flaeche des Quadrats betraegt (in cm*cm): " << (stimmen / stimmen1) * 100 << "%" << endl;
-	cout << "Die Flaeche des Quadrats betraegt (in cm*cm): " << (stimmen / stimmen2) * 100 << "%" << endl;
-	cout << "Die Flaeche des Quadrats betraegt (in cm*cm): " << (stimmen / stimmen3) * 100 << "%" << endl;
+	float stimmen3 = stimmen - stimmen1 - stimmen2;
+	cout << "Auf den dritten Kandidaten sind somit " << stimmen3 << " Stimmen entfallen. " << endl;
+	cout << "Kandidat 1 erhielt " << (stimmen1 / stimmen) * 100 << "% der Stimmen. " << endl;
+	cout << "Kandidat 2 erhielt " << (stimmen2 / stimmen) * 100 << "% der Stimmen. " << endl;
+	cout << "Kandidat 3 erhielt " << (stimmen3 / stimmen) * 100 << "% der Stimmen. " << endl;
 	system("PAUSE");
 }
