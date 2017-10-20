@@ -11,9 +11,9 @@ int main() {
 	cin >> stimmen2;
 	float stimmen3 = stimmen - stimmen1 - stimmen2;
 	cout << "Auf den dritten Kandidaten sind somit " << stimmen3 << " Stimmen entfallen." << endl;
-	cout << "Kandidat 1 erhielt " << (stimmen1 / stimmen) * 100 << "% der Stimmen." << endl;
-	cout << "Kandidat 2 erhielt " << (stimmen2 / stimmen) * 100 << "% der Stimmen." << endl;
-	cout << "Kandidat 3 erhielt " << (stimmen3 / stimmen) * 100 << "% der Stimmen." << endl;
+	cout << "Kandidat 1 erhielt " << ((stimmen1 * 100 )/ stimmen) << "% der Stimmen." << endl;
+	cout << "Kandidat 2 erhielt " << ((stimmen2 * 100) / stimmen) << "% der Stimmen." << endl;
+	cout << "Kandidat 3 erhielt " << ((stimmen3 * 100) / stimmen) << "% der Stimmen." << endl;
 	system("PAUSE");
 	return 0;
 }
