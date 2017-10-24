@@ -5,7 +5,7 @@ int main() {
 	char buchstabe;
 	std::cin >> buchstabe;
 	int lowercase = int(buchstabe);
-	lowercase -= 32;
+	lowercase -= int(buchstabe) - int(toupper(buchstabe)); // || -= 32 // || -= int('a') - int('A')
 	buchstabe = char(lowercase);
 	std::cout << "Der entsprechende Grossbuchstabe lautet: " << buchstabe << std::endl;
 	std::system("PAUSE");

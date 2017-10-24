@@ -14,7 +14,7 @@ int main() {
 
 	double ergebnis = ((eingabe * 1.8 + 32) * (1 / auswahl)) +
 					  ((eingabe * 3.2808) * (9 % auswahl)) +
-					  ((eingabe * 1.2957) * ((3 * auswahl) / 9));
+					  ((eingabe * 1.2957) * (auswahl / 3));
 	cout << "Das Ergebnis lautet: " << ergebnis << endl << endl;
 	system("PAUSE");
 	return 0;
