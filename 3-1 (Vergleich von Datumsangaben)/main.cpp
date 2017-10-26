@@ -3,44 +3,38 @@ using namespace std;
 
 int main() {
 	//Input
-	int tag1, monat1, jahr1;
+	int datum1[3];
 	cout << "Bitte geben Sie den Tag des ersten Datums ein: ";
-	cin >> tag1;
+	cin >> datum1[2];
 	cout << "Bitte geben Sie den Monat des ersten Datums ein : ";
-	cin >> monat1;
+	cin >> datum1[1];
 	cout << "Bitte geben Sie das Jahr des ersten Datums ein : ";
-	cin >> jahr1;
+	cin >> datum1[0];
 
-	int tag2, monat2, jahr2;
+	int datum2[3];
 	cout << "Bitte geben Sie den Tag des zweiten Datums ein: ";
-	cin >> tag2;
+	cin >> datum2[2];
 	cout << "Bitte geben Sie den Monat des zweiten Datums ein : ";
-	cin >> monat2;
+	cin >> datum2[1];
 	cout << "Bitte geben Sie das Jahr des zweiten Datums ein : ";
-	cin >> jahr2;
+	cin >> datum2[0];
 
 	//Output
-	char* output;
+	char* output = "Beide Datumsangaben sind gleich.";
 	char* output1 = "Das erste Datum liegt vor dem zweiten Datum.";
 	char* output2 = "Das zweite Datum liegt vor dem ersten Datum.";
-	if (jahr1 == jahr2) {
-		if (monat1 == monat2) {
-			if (tag1 == tag2)
-				output = "Beide Datumsangaben sind gleich.";
-			else if (tag1 > tag2)
-				output = output2;
-			else
-				output = output1;
-		}
-		else if (monat1 > monat2)
+	for (int i = 0; i < 3; i++) {
+		if (datum1[i] == datum2[i])
+			continue;
+		else if (datum1[i] > datum2[i]) {
 			output = output2;
-		else
+			break;
+		}
+		else {
 			output = output1;
+			break;
+		}
 	}
-	else if (jahr1 > jahr2)
-		output = output2;
-	else
-		output = output1;
 
 	cout << output << endl;
 	system("PAUSE");
