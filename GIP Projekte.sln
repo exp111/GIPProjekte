@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1 (Hallo Welt)", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
 EndProject
@@ -30,6 +30,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-2 (Kleinste und größte Zahl)", "3-2 (Kleinste und größte Zahl)\3-2 (Kleinste und größte Zahl).vcxproj", "{1F3A136C-8B5F-4C84-BF31-63A7911BABBD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-3 (Taschenrechner mit Buchstaben- und Zahleneingabe)", "3-3 (Taschenrechner mit Buchstaben- und Zahleneingabe)\3-3 (Taschenrechner mit Buchstaben- und Zahleneingabe).vcxproj", "{2F77A09D-9881-4345-849F-49403D2C3FA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-1 (Zahlenraten durch Bisektion)", "4-1\4-1.vcxproj", "{E355628B-3D13-40C0-AB0D-20FFFEDF4792}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-2 (Caesar-Verschlüsselung)", "4-2 (Caesar-Verschlüsselung)\4-2 (Caesar-Verschlüsselung).vcxproj", "{6CF78106-B95F-4F72-8936-0B4FCD676DCA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-3 (Busfahrplan)", "4-3 (Busfahrplan)\4-3 (Busfahrplan).vcxproj", "{D836757C-33F9-4019-BA31-EE855D787383}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +141,30 @@ Global
 		{2F77A09D-9881-4345-849F-49403D2C3FA3}.Release|x64.Build.0 = Release|x64
 		{2F77A09D-9881-4345-849F-49403D2C3FA3}.Release|x86.ActiveCfg = Release|Win32
 		{2F77A09D-9881-4345-849F-49403D2C3FA3}.Release|x86.Build.0 = Release|Win32
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Debug|x64.ActiveCfg = Debug|x64
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Debug|x64.Build.0 = Debug|x64
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Debug|x86.ActiveCfg = Debug|Win32
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Debug|x86.Build.0 = Debug|Win32
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Release|x64.ActiveCfg = Release|x64
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Release|x64.Build.0 = Release|x64
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Release|x86.ActiveCfg = Release|Win32
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792}.Release|x86.Build.0 = Release|Win32
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Debug|x64.ActiveCfg = Debug|x64
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Debug|x64.Build.0 = Debug|x64
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Debug|x86.ActiveCfg = Debug|Win32
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Debug|x86.Build.0 = Debug|Win32
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Release|x64.ActiveCfg = Release|x64
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Release|x64.Build.0 = Release|x64
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Release|x86.ActiveCfg = Release|Win32
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA}.Release|x86.Build.0 = Release|Win32
+		{D836757C-33F9-4019-BA31-EE855D787383}.Debug|x64.ActiveCfg = Debug|x64
+		{D836757C-33F9-4019-BA31-EE855D787383}.Debug|x64.Build.0 = Debug|x64
+		{D836757C-33F9-4019-BA31-EE855D787383}.Debug|x86.ActiveCfg = Debug|Win32
+		{D836757C-33F9-4019-BA31-EE855D787383}.Debug|x86.Build.0 = Debug|Win32
+		{D836757C-33F9-4019-BA31-EE855D787383}.Release|x64.ActiveCfg = Release|x64
+		{D836757C-33F9-4019-BA31-EE855D787383}.Release|x64.Build.0 = Release|x64
+		{D836757C-33F9-4019-BA31-EE855D787383}.Release|x86.ActiveCfg = Release|Win32
+		{D836757C-33F9-4019-BA31-EE855D787383}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +182,9 @@ Global
 		{FF45B3A0-D2D7-4BE1-9F12-44223AEB5776} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
 		{1F3A136C-8B5F-4C84-BF31-63A7911BABBD} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
 		{2F77A09D-9881-4345-849F-49403D2C3FA3} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
+		{E355628B-3D13-40C0-AB0D-20FFFEDF4792} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
+		{6CF78106-B95F-4F72-8936-0B4FCD676DCA} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
+		{D836757C-33F9-4019-BA31-EE855D787383} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}
