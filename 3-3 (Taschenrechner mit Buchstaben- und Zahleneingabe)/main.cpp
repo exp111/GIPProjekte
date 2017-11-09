@@ -10,7 +10,7 @@ int main() {
 
 	int returnValue = 0;
 	if (zahl1 != 'q' && zahl2 != 'q') {
-		cout << int(zahl1) - 48 << " + " << int(zahl2) - 48 << " = " << (int(zahl1) - 48) + (int(zahl2) - 48) << endl;
+		cout << int(zahl1) - '0' << " + " << int(zahl2) - '0' << " = " << (int(zahl1) - '0') + (int(zahl2) - '0') << endl;
 		returnValue = 0;
 	} else {
 		cout << "Das Programm wurde durch Eingabe von q beendet." << endl;

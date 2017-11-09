@@ -21,17 +21,15 @@ int main() {
 
 	//Output
 	char* output = "Beide Datumsangaben sind gleich.";
-	char* output1 = "Das erste Datum liegt vor dem zweiten Datum.";
-	char* output2 = "Das zweite Datum liegt vor dem ersten Datum.";
 	for (int i = 0; i < 3; i++) {
 		if (datum1[i] == datum2[i])
 			continue;
 		else if (datum1[i] > datum2[i]) {
-			output = output2;
+			output = "Das zweite Datum liegt vor dem ersten Datum.";
 			break;
 		}
 		else {
-			output = output1;
+			output = "Das erste Datum liegt vor dem zweiten Datum.";
 			break;
 		}
 	}
