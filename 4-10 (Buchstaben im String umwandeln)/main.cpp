@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	string input;
-	cout << "Bitte Text eingeben (ggfs.mit Leerzeichen): ? ";
+	cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
 	getline(cin, input);
 
 	//lowercase verdoppeln

@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	string input;
-	cout << "Bitte einzeiligen Text eingeben(ohne Leerzeichen): ? ";
+	cout << "Bitte einzeiligen Text eingeben (ohne Leerzeichen): ? ";
 	getline(cin, input);
 
 	if (input.size() > 0)

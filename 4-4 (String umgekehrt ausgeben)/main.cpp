@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	string input;
-	cout << "Bitte einzeiligen Text eingeben (ggfs. mit Leerzeichen): ? ";
+	cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
 	getline(cin, input);
 
 	string output = "";
@@ -21,7 +21,7 @@ int main()
 		}
 
 		cout << "Eingabetext: " << input << endl;
-		cout << "Ausgabetext: " << output << endl;
+		cout << "Ergebnis: " << output << endl;
 	}
 
 	system("PAUSE");
