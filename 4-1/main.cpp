@@ -12,7 +12,7 @@ int main()
 	do
 	{
 		if (input == 'k')
-			max /= 2;
+			max = mitte;
 		else if (input == 'g')
 			min = mitte;
 		
