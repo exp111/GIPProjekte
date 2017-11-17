@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1 (Hallo Welt)", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
 EndProject
@@ -76,6 +76,18 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-1 (Parallelogramm)", "5-1 (Parallelogramm)\5-1 (Parallelogramm).vcxproj", "{D432BF80-378B-4410-8971-DBA1285E8365}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-2 (Eingaben in Array)", "5-2 (Eingaben in Array)\5-2 (Eingaben in Array).vcxproj", "{A0AE4805-8441-4CA1-B365-6D8527B279D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-3 (Eingaben in Array; Zählen der Daten)", "5-3 (Eingaben in Array; Zählen der Daten)\5-3 (Eingaben in Array; Zählen der Daten).vcxproj", "{50BD4AB2-6348-4A1E-BD59-2A2F48176160}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-4 (Unterschiedliche Eingaben zaehlen)", "5-4 (Unterschiedliche Eingaben zaehlen)\5-4 (Unterschiedliche Eingaben zaehlen).vcxproj", "{CF3115DF-FA17-4715-869C-5FDA67FF7746}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-5 (Zahlziffer-Umwandlung)", "5-5 (Zahlziffer-Umwandlung)\5-5 (Zahlziffer-Umwandlung).vcxproj", "{8EBED9BF-058C-4EBA-8799-E02FE09FC223}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-6 (Kleinste und groesste Zahl mittels Array)", "5-6 (Kleinste und groesste Zahl mittels Array)\5-6 (Kleinste und groesste Zahl mittels Array).vcxproj", "{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-7 (String-Funktion ersetze())", "5-7 (String-Funktion ersetze())\5-7 (String-Funktion ersetze()).vcxproj", "{80A3E293-4D87-485E-9B0A-85B3CC5172F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-8 (String Funktion trimme())", "5-8 (String Funktion trimme())\5-8 (String Funktion trimme()).vcxproj", "{EB03484E-D2A2-45F6-B825-422A46EEB3E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,6 +313,54 @@ Global
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0}.Release|x64.Build.0 = Release|x64
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0}.Release|x86.ActiveCfg = Release|Win32
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0}.Release|x86.Build.0 = Release|Win32
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Debug|x64.ActiveCfg = Debug|x64
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Debug|x64.Build.0 = Debug|x64
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Debug|x86.ActiveCfg = Debug|Win32
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Debug|x86.Build.0 = Debug|Win32
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Release|x64.ActiveCfg = Release|x64
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Release|x64.Build.0 = Release|x64
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Release|x86.ActiveCfg = Release|Win32
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160}.Release|x86.Build.0 = Release|Win32
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Debug|x64.ActiveCfg = Debug|x64
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Debug|x64.Build.0 = Debug|x64
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Debug|x86.Build.0 = Debug|Win32
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Release|x64.ActiveCfg = Release|x64
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Release|x64.Build.0 = Release|x64
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Release|x86.ActiveCfg = Release|Win32
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746}.Release|x86.Build.0 = Release|Win32
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Debug|x64.ActiveCfg = Debug|x64
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Debug|x64.Build.0 = Debug|x64
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Debug|x86.ActiveCfg = Debug|Win32
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Debug|x86.Build.0 = Debug|Win32
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Release|x64.ActiveCfg = Release|x64
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Release|x64.Build.0 = Release|x64
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Release|x86.ActiveCfg = Release|Win32
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223}.Release|x86.Build.0 = Release|Win32
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Debug|x64.ActiveCfg = Debug|x64
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Debug|x64.Build.0 = Debug|x64
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Debug|x86.ActiveCfg = Debug|Win32
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Debug|x86.Build.0 = Debug|Win32
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Release|x64.ActiveCfg = Release|x64
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Release|x64.Build.0 = Release|x64
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Release|x86.ActiveCfg = Release|Win32
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C}.Release|x86.Build.0 = Release|Win32
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Debug|x64.ActiveCfg = Debug|x64
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Debug|x64.Build.0 = Debug|x64
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Debug|x86.Build.0 = Debug|Win32
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Release|x64.ActiveCfg = Release|x64
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Release|x64.Build.0 = Release|x64
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Release|x86.ActiveCfg = Release|Win32
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9}.Release|x86.Build.0 = Release|Win32
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Debug|x64.ActiveCfg = Debug|x64
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Debug|x64.Build.0 = Debug|x64
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Debug|x86.Build.0 = Debug|Win32
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Release|x64.ActiveCfg = Release|x64
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Release|x64.Build.0 = Release|x64
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Release|x86.ActiveCfg = Release|Win32
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -341,6 +401,12 @@ Global
 		{C16984CD-B87E-4112-9236-EC85D022F7C5} = {410C3D33-3E87-49F0-93FC-BB9C83F78D1A}
 		{D432BF80-378B-4410-8971-DBA1285E8365} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
+		{50BD4AB2-6348-4A1E-BD59-2A2F48176160} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
+		{CF3115DF-FA17-4715-869C-5FDA67FF7746} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
+		{8EBED9BF-058C-4EBA-8799-E02FE09FC223} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
+		{10FF24B1-8FE3-43A1-B2D3-CF01FBDA969C} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
+		{80A3E293-4D87-485E-9B0A-85B3CC5172F9} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
+		{EB03484E-D2A2-45F6-B825-422A46EEB3E3} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}
