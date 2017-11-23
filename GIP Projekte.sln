@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1 (Hallo Welt)", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
 EndProject
@@ -76,14 +76,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-1 (Parallelogramm)", "5-1 (Parallelogramm)\5-1 (Parallelogramm).vcxproj", "{D432BF80-378B-4410-8971-DBA1285E8365}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-2 (Eingaben in Array)", "5-2 (Eingaben in Array)\5-2 (Eingaben in Array).vcxproj", "{A0AE4805-8441-4CA1-B365-6D8527B279D0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6", "6", "{4DECB7BC-D4BF-4E36-BB5A-0CE157FC7FC7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-1 (Zeichenkette aufteilen ab)", "6-1 (Zeichenkette aufteilen ab)\6-1 (Zeichenkette aufteilen ab).vcxproj", "{1B3E936D-5402-48EA-88D2-F5FF3E12B630}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-2 (Addition und Subtraktion rekursiv)", "6-2 (Addition und Subtraktion rekursiv)\6-2 (Addition und Subtraktion rekursiv).vcxproj", "{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-3 (Canvas)", "6-3 (Canvas)\6-3 (Canvas).vcxproj", "{B57336AC-027A-48C0-88AD-51BF154C9371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -309,30 +301,6 @@ Global
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0}.Release|x64.Build.0 = Release|x64
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0}.Release|x86.ActiveCfg = Release|Win32
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0}.Release|x86.Build.0 = Release|Win32
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Debug|x64.ActiveCfg = Debug|x64
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Debug|x64.Build.0 = Debug|x64
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Debug|x86.ActiveCfg = Debug|Win32
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Debug|x86.Build.0 = Debug|Win32
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Release|x64.ActiveCfg = Release|x64
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Release|x64.Build.0 = Release|x64
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Release|x86.ActiveCfg = Release|Win32
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630}.Release|x86.Build.0 = Release|Win32
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Debug|x64.ActiveCfg = Debug|x64
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Debug|x64.Build.0 = Debug|x64
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Debug|x86.ActiveCfg = Debug|Win32
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Debug|x86.Build.0 = Debug|Win32
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Release|x64.ActiveCfg = Release|x64
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Release|x64.Build.0 = Release|x64
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Release|x86.ActiveCfg = Release|Win32
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4}.Release|x86.Build.0 = Release|Win32
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Debug|x64.ActiveCfg = Debug|x64
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Debug|x64.Build.0 = Debug|x64
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Debug|x86.ActiveCfg = Debug|Win32
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Debug|x86.Build.0 = Debug|Win32
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Release|x64.ActiveCfg = Release|x64
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Release|x64.Build.0 = Release|x64
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Release|x86.ActiveCfg = Release|Win32
-		{B57336AC-027A-48C0-88AD-51BF154C9371}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -373,10 +341,6 @@ Global
 		{C16984CD-B87E-4112-9236-EC85D022F7C5} = {410C3D33-3E87-49F0-93FC-BB9C83F78D1A}
 		{D432BF80-378B-4410-8971-DBA1285E8365} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
 		{A0AE4805-8441-4CA1-B365-6D8527B279D0} = {C16984CD-B87E-4112-9236-EC85D022F7C5}
-		{4DECB7BC-D4BF-4E36-BB5A-0CE157FC7FC7} = {410C3D33-3E87-49F0-93FC-BB9C83F78D1A}
-		{1B3E936D-5402-48EA-88D2-F5FF3E12B630} = {4DECB7BC-D4BF-4E36-BB5A-0CE157FC7FC7}
-		{E7A46463-CA22-4E7D-83CA-B265CE40F1D4} = {4DECB7BC-D4BF-4E36-BB5A-0CE157FC7FC7}
-		{B57336AC-027A-48C0-88AD-51BF154C9371} = {4DECB7BC-D4BF-4E36-BB5A-0CE157FC7FC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}
