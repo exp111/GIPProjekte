@@ -23,6 +23,7 @@
     <ProjectGuid>{2DFBDFFF-0F06-4D21-8E0F-C3E9269A0431}</ProjectGuid>
     <RootNamespace>A3Parallelogramzeichnen</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>A3 (Parallelogram zeichnen)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
