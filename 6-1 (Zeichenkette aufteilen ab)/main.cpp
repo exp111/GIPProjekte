@@ -38,11 +38,11 @@ int main()
 	string zweiterTeil = "";
 	cout << "Bitte geben Sie die einzeilige Zeichenkette ein: ? ";
 	getline(cin, input);
-	cout << "Bitte geben Sie das Zeichen ein : ? ";
+	cout << "Bitte geben Sie das Zeichen ein: ? ";
 	cin >> zeichen;
 	spalte_ab_erstem(zeichen, input, ersterTeil, zweiterTeil);
-	cout << "Der erste Teil der Zeichenkette lautet : " << ersterTeil << endl;
-	cout << "Der zweite Teil der Zeichenkette lautet : " << zweiterTeil << endl;
+	cout << "Der erste Teil der Zeichenkette lautet: " << ersterTeil << endl;
+	cout << "Der zweite Teil der Zeichenkette lautet: " << zweiterTeil << endl;
 	system("PAUSE");
 	return 0;
 }
