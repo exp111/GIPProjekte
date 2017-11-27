@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1 (Hallo Welt)", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
 EndProject
@@ -120,6 +120,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-1 (Saeulendiagramm)", "6-1 (Saeulendiagramm)\6-1 (Saeulendiagramm).vcxproj", "{6035D8B1-679D-4AD0-A3A5-63682B73CC78}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-2 (Worte spiegeln interaktiv)", "6-2 (Worte spiegeln interaktiv)\6-2 (Worte spiegeln interaktiv).vcxproj", "{2A740CFE-6D0B-409E-A27C-BE7ABE01DFAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-3 (Animation)", "6-3 (Animation)\6-3 (Animation).vcxproj", "{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -497,6 +499,14 @@ Global
 		{2A740CFE-6D0B-409E-A27C-BE7ABE01DFAA}.Release|x64.Build.0 = Release|x64
 		{2A740CFE-6D0B-409E-A27C-BE7ABE01DFAA}.Release|x86.ActiveCfg = Release|Win32
 		{2A740CFE-6D0B-409E-A27C-BE7ABE01DFAA}.Release|x86.Build.0 = Release|Win32
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Debug|x64.ActiveCfg = Debug|x64
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Debug|x64.Build.0 = Debug|x64
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Debug|x86.Build.0 = Debug|Win32
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Release|x64.ActiveCfg = Release|x64
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Release|x64.Build.0 = Release|x64
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Release|x86.ActiveCfg = Release|Win32
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -558,6 +568,7 @@ Global
 		{CE14E0C7-B27F-4A4C-8247-380A757A1C8C} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
 		{6035D8B1-679D-4AD0-A3A5-63682B73CC78} = {CE14E0C7-B27F-4A4C-8247-380A757A1C8C}
 		{2A740CFE-6D0B-409E-A27C-BE7ABE01DFAA} = {CE14E0C7-B27F-4A4C-8247-380A757A1C8C}
+		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC} = {CE14E0C7-B27F-4A4C-8247-380A757A1C8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}
