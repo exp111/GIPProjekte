@@ -11,6 +11,7 @@ int main() {
 			cin >> zahlen[i];
 		} while (zahlen[i] < 1 || zahlen[i] > 6);
 	}
+	cout << "Die eingegebenen Zahlen lauteten:" << endl;
 	for (int i = 0; i < 9; i++)
 		cout << zahlen[i] << endl;
 

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits.h>
 using namespace std;
 
 int main() {
@@ -9,7 +10,7 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		//Input
 		int input;
-		cout << "Bitte geben Sie die " << i + 1 << ". Zahl ein: ";
+		cout << "Bitte geben Sie die " << i + 1 << ". Zahl ein: ? ";
 		cin >> input;
 
 		//Check if larger/smaller
