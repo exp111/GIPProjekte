@@ -23,7 +23,7 @@ int main()
 			else if (zahlen[j] == i)
 				cout << "*";
 			else
-				cout << " ";
+				cout << ".";
 		}
 		cout << endl;
 	}
