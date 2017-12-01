@@ -127,6 +127,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P7", "P7", "{BF359756-97AC-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-1 (Sudoku einlesen)", "7-1 (Sudoku einlesen)\7-1 (Sudoku einlesen).vcxproj", "{E33FBBB4-96EB-45E0-BD94-E5F62B1C8E24}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 (Websitendatei erstellen)", "7-2 (Websitendatei erstellen)\7-2 (Websitendatei erstellen).vcxproj", "{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -519,6 +521,14 @@ Global
 		{E33FBBB4-96EB-45E0-BD94-E5F62B1C8E24}.Release|x64.Build.0 = Release|x64
 		{E33FBBB4-96EB-45E0-BD94-E5F62B1C8E24}.Release|x86.ActiveCfg = Release|Win32
 		{E33FBBB4-96EB-45E0-BD94-E5F62B1C8E24}.Release|x86.Build.0 = Release|Win32
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Debug|x64.ActiveCfg = Debug|x64
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Debug|x64.Build.0 = Debug|x64
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Debug|x86.Build.0 = Debug|Win32
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Release|x64.ActiveCfg = Release|x64
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Release|x64.Build.0 = Release|x64
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Release|x86.ActiveCfg = Release|Win32
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -583,6 +593,7 @@ Global
 		{5494FD89-166A-4EBD-8DED-81C47FB7D0AC} = {CE14E0C7-B27F-4A4C-8247-380A757A1C8C}
 		{BF359756-97AC-4EFB-9D4F-07D85DB39474} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
 		{E33FBBB4-96EB-45E0-BD94-E5F62B1C8E24} = {BF359756-97AC-4EFB-9D4F-07D85DB39474}
+		{D5FBE21D-C809-4758-ACB3-6ECB8B7C100A} = {BF359756-97AC-4EFB-9D4F-07D85DB39474}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}
