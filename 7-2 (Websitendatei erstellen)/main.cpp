@@ -78,30 +78,34 @@ void langeListe(ofstream &file)
 
 int main()
 {
-	ofstream website("webseite.html");
+	ofstream webseite("webseite.html");
 	//Init Website till body
-	website << "<!DOCTYPE html>" << endl ;
-	website << "<html>" << endl;
-	website << "<head>" << endl;
-	website << "<title>GIP Testdatei</title>" << endl;;
-	website << "</head>" << endl;
-	website << "<body>" << endl;
+	webseite << "<!DOCTYPE html>" << endl ;
+	webseite << "<html>" << endl;
+	webseite << "<head>" << endl;
+	webseite << "<title>GIP Testdatei</title>" << endl;;
+	webseite << "</head>" << endl;
+	webseite << "<body>" << endl;
 
-	ifstream websitetmpl("webseite.html.tmpl");
+	ifstream webseitetmpl("webseite.html.tmpl");
 	string input;
-	while (getline(websitetmpl, input))
+	while (getline(webseitetmpl, input))
 	{
 		for (int i = 0; i < input.size(); i++)
 		{
 			if (input[i] == '%')
-				kurzeListe(website);
+				kurzeListe(webseite);
 
 			if (input[i] == '$')
-				langeListe(website);
+				langeListe(webseite);
 		}
 	}
 
-	//End website </body> endl </html>
-	website << "</body>" << endl << "</html>";
+	//End webseite </body> endl </html>
+	webseite << "</body>" << endl << "</html>";
+
+	//close files
+	webseite.close();
+	webseitetmpl.close();
 	return 0;
 }
