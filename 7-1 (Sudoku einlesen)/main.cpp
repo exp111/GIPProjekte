@@ -30,7 +30,7 @@ int main()
 	}
 
 	//Output
-	cout << "Das Sudoku lautet: " << endl;
+	cout << endl << "Das Sudoku lautet: " << endl;
 	for (int i = 0; i < 9; i++) //Line
 	{
 		if (i == 3 || i == 6)
