@@ -17,7 +17,7 @@ string trimme(string s)
 	}
 
 	//Ritter Von Hinten
-	for (int i = s.size() - 1; i >= 0; i--)
+	for (int i = (int)s.size() - 1; i >= 0; i--)
 	{
 		if (s[i] == '+') {
 			continue;

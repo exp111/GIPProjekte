@@ -11,7 +11,7 @@ int main()
 	string output = "";
 	if (input.size() > 0)
 	{
-		for (int i = input.size(); i > 0; i--) {
+		for (int i = (int)input.size(); i > 0; i--) {
 			if (!isalpha(input.at(i - 1))) {
 				output.append(" ");
 				continue;

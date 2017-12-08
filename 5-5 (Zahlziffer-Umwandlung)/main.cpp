@@ -15,7 +15,7 @@ int main()
 	{
 		int output = 0;
 		for (int i = 0; i < input.length(); i++)
-			output += (int(input.at(i)) - int('0')) * pow(10, input.length() - i - 1) * 2;
+			output += (int(input.at(i)) - int('0')) * (int)pow(10, input.length() - i - 1) * 2;
 		cout << "Der doppelte Wert betraegt: " << output << endl;
 	}
 		

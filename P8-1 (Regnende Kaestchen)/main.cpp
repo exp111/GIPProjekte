@@ -42,7 +42,7 @@ bool update_boxes(Box boxes[])
 		//1
 		boxes[i].y += boxes[i].delta_y;
 		//2
-		if (boxes[i].y >= gip_win_size_y)
+		if ((unsigned)boxes[i].y >= gip_win_size_y)
 			return false;
 	}
 

@@ -12,7 +12,7 @@ int main()
 		cout << "Textzeile = ? ";
 		getline(cin, input[i]);
 
-		int length = input[i].length();
+		int length = (int)input[i].length();
 		if (length > highestLength)
 			highestLength = length;
 

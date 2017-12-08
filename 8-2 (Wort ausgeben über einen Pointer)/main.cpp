@@ -4,12 +4,18 @@ int main()
 {
 	char w = 'w', i = 'i', l = 'l';
 	char* ptr = nullptr;
-	// Wertaenderungen von ptr,
+
 	ptr = &w;
-	// Dereferenzieren von ptr,
+	cout << *ptr;
+	ptr = &i;
+	cout << *ptr;
+	ptr = &l;
+	cout << *ptr;
+	ptr = &l;
+	cout << *ptr;
+	ptr = &i;
+	cout << *ptr;
 	
-	// Ausgabe des dereferenzierten Werts
-	cout << *ptr << endl;
 	cout << endl;
 	system("PAUSE");
 	return 0;

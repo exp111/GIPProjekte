@@ -44,7 +44,7 @@ int main()
 	{
 		diffZeit[i] = abs
 
-	cout << "Differenz der beiden Zeiten ist " << diffZeit[0] << "h " diffZeitmin 58s."
+	cout << "Differenz der beiden Zeiten ist " << diffZeit[0] << "h " << diffZeitmin << "58s."
 	system("PAUSE");
 	return 0;
 }
