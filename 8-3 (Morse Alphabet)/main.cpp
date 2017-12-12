@@ -59,6 +59,46 @@ const T_Morse_Data morse_data[] = {
 	{ '/', "-..-." },
 	{ '@', ".--.-." },
 	{ '=', "-...-" }
-};const int morse_data_len = 47;string getMorse(char c){	for (int i = 0; i < morse_data_len; i++)	{		if (morse_data[i].letter == c)			return morse_data[i].morse_code;	}	return "";}void Morsify(string input, string &output){	for (int i = 0; i < input.length(); i++)		output += getMorse(input[i]) + "#";}void toLower(string &input){	for (int i = 0; i < input.length(); i++)	{		if (isalpha(input[i]))		{			if (isupper(input[i]))				input[i] = tolower(input[i]);		}	}}int main(){
+};
+
+const int morse_data_len = 47;
+
+string getMorse(char c)
+{
+	for (int i = 0; i < morse_data_len; i++)
+	{
+		if (morse_data[i].letter == c)
+			return morse_data[i].morse_code;
+	}
+	return "";
+}
+
+void Morsify(string input, string &output)
+{
+	for (int i = 0; i < input.length(); i++)
+		output += getMorse(input[i]) + "#";
+}
+
+void toLower(string &input)
+{
+	for (int i = 0; i < input.length(); i++)
+	{
+		if (isalpha(input[i]))
+		{
+			if (isupper(input[i]))
+				input[i] = tolower(input[i]);
+		}
+	}
+}
+
+int main()
+{
 	string input, output = "";
-	cout << "Bitte Text eingeben (ggfs.mit Leerzeichen): ? ";	getline(cin, input);	toLower(input);	Morsify(input, output);	cout << output << endl;	system("PAUSE");	return 0;}
+	cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
+	getline(cin, input);
+	toLower(input);
+	Morsify(input, output);
+	cout << output << endl;
+	system("PAUSE");
+	return 0;
+}
