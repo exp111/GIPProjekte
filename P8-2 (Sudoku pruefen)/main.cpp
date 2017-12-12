@@ -30,7 +30,7 @@ int main()
 	}
 
 	//Output
-
+	bool fehler = false;
 	//Spalte
 	int countSpalte[9][9] = { 0 };
 	for (int i = 0; i < 9; i++)//Zeile
@@ -45,10 +45,16 @@ int main()
 		for (int j = 0; j < 9; j++) //Zahl
 		{
 			if (countSpalte[i][j] == 0)
-				cout << "Spalte " << i << ": Zahl " << j+1 << " kommt nicht vor." << endl;
+			{
+				cout << "Spalte " << i << ": Zahl " << j + 1 << " kommt nicht vor." << endl;
+				fehler = true;
+			}
 
 			if (countSpalte[i][j] > 1)
-				cout << "Spalte " << i << ": Zahl " << j+1 << " kommt mehrfach vor." << endl;
+			{
+				cout << "Spalte " << i << ": Zahl " << j + 1 << " kommt mehrfach vor." << endl;
+				fehler = true;
+			}
 		}
 	}
 
@@ -66,10 +72,16 @@ int main()
 		for (int j = 0; j < 9; j++) //Zahl
 		{
 			if (countZeile[i][j] == 0)
+			{
 				cout << "Zeile " << i << ": Zahl " << j + 1 << " kommt nicht vor." << endl;
+				fehler = true;
+			}
 
 			if (countZeile[i][j] > 1)
+			{
 				cout << "Zeile " << i << ": Zahl " << j + 1 << " kommt mehrfach vor." << endl;
+				fehler = true;
+			}
 		}
 	}
 
@@ -89,11 +101,21 @@ int main()
 		for (int j = 0; j < 9; j++)
 		{
 			if (countBlock[i][j] == 0)
-				cout << "Block " << i << ": Zahl " << j+1 << " kommt nicht vor." << endl;
+			{
+				cout << "Block " << i << ": Zahl " << j + 1 << " kommt nicht vor." << endl;
+				fehler = true;
+			}
+
 			if (countBlock[i][j] > 1)
-				cout << "Block " << i << ": Zahl " << j+1 << " kommt mehrfach vor." << endl;
+			{
+				cout << "Block " << i << ": Zahl " << j + 1 << " kommt mehrfach vor." << endl;
+				fehler = true;
+			}
 		}
 	}
+
+	if (!fehler)
+		cout << "Das Sudoku ist gueltig." << endl;
 
 	system("PAUSE");
 	return 0;

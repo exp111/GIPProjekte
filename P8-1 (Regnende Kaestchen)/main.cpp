@@ -9,6 +9,7 @@ struct Box
 	int delta_y; // aktuelle Fallgeschwindigkeit dieses Kaestchens
 };
 const int box_max = 10, box_size = 40;
+const float timeScale = 0.1;
 // draw_boxes():
 // Die Anzahl der Kaestchen wird nicht als zweiter Parameter uebergeben,
 // da diese Anzahl als globale Konstante box_max im gesamten Programm bekannt ist ...
@@ -40,7 +41,7 @@ bool update_boxes(Box boxes[])
 	for (int i = 0; i < box_max; i++)
 	{
 		//1
-		boxes[i].y += boxes[i].delta_y;
+		boxes[i].y += boxes[i].delta_y * timeScale;
 		//2
 		if ((unsigned)boxes[i].y >= gip_win_size_y)
 			return false;
@@ -94,7 +95,7 @@ int main()
 	while (keep_going && gip_window_not_closed())
 	{
 		draw_boxes(boxes);
-		for (int loop_count = 0; loop_count < 200; loop_count++)
+		for (int loop_count = 0; loop_count < 200*timeScale; loop_count++)
 		{
 			gip_wait(5); // warte 5 Milli-Sekunden
 			if (gip_mouse_button1_pressed())
