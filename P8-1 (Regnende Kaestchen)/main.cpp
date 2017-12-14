@@ -9,7 +9,7 @@ struct Box
 	int delta_y; // aktuelle Fallgeschwindigkeit dieses Kaestchens
 };
 const int box_max = 10, box_size = 40;
-const float timeScale = 0.1;
+const float timeScale = 1;
 // draw_boxes():
 // Die Anzahl der Kaestchen wird nicht als zweiter Parameter uebergeben,
 // da diese Anzahl als globale Konstante box_max im gesamten Programm bekannt ist ...
