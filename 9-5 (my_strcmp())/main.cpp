@@ -30,7 +30,7 @@ int main()
 	getline(cin, input[0]);
 	cout << "Bitte zweiten Text eingeben (ggfs. mit Leerzeichen): ? ";
 	getline(cin, input[1]);
-	cout << "Ergebnis my_strlen(): " << my_strcmp(input[0].c_str(), input[1].c_str()) << endl;
+	cout << "Ergebnis my_strcmp(): " << my_strcmp(input[0].c_str(), input[1].c_str()) << endl;
 	system("PAUSE");
 	return 0;
 }
