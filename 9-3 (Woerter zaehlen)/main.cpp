@@ -16,7 +16,7 @@ string naechstes_wort(string zeile, int& pos)
 			tmp += zeile[i];
 		else
 		{
-			if (tmp.size() > 0)
+			if (tmp.size() > (unsigned)0)
 			{
 				pos = i;
 				return tmp;
@@ -28,6 +28,7 @@ string naechstes_wort(string zeile, int& pos)
 		}
 	}
 
+	pos = zeile.length();
 	return tmp;
 }
 
@@ -35,16 +36,16 @@ void zaehle_wort(string wort, w_haeufigkeit haeufigkeiten[], int& w_count)
 {
 	for (int i = 0; i < 1000; i++)
 	{
-		if (haeufigkeiten[i].wort == "")
+		if (haeufigkeiten[i].wort.size() <= (unsigned)0)
 		{
 			haeufigkeiten[i].wort = wort;
 			haeufigkeiten[i].haeufigkeit = 1;
+			w_count++;
 			return;
 		}
 		if (haeufigkeiten[i].wort == wort)
 		{
 			haeufigkeiten[i].haeufigkeit++;
-			w_count++;
 			return;
 		}
 	}
