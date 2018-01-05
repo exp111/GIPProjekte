@@ -73,7 +73,7 @@ char* naechstes_wort(const char* const zeile, unsigned int& pos)
 	}
 
 	pos = my_strlen(zeile);
-	if (tmpPos == 0)
+	if (my_strlen(tmp) == 0)
 		return nullptr;
 	tmp[tmpPos] = 0;
 	return tmp;
