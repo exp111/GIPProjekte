@@ -48,7 +48,7 @@ void suchbaum::knoten_ausgeben(BaumKnoten * knoten, int depth)
 	while (current->groesser != nullptr) //gehe zu groesstem
 	{
 		current = current->groesser;
-		tiefe += 2;
+		tiefe++;
 	}
 	if (!current->printed)
 	{
@@ -59,7 +59,7 @@ void suchbaum::knoten_ausgeben(BaumKnoten * knoten, int depth)
 	if (current->kleiner != nullptr) //wenn kleiner existiert -> rekursiv mit kleiner
 	{
 		current = current->kleiner;
-		tiefe += 2;
+		tiefe++;
 		knoten_ausgeben(current, tiefe);
 	}
 	else //sonst repeat mit parent + delete parent->groesser
@@ -67,7 +67,7 @@ void suchbaum::knoten_ausgeben(BaumKnoten * knoten, int depth)
 		if (current->parent != nullptr)
 		{
 			current = current->parent;
-			tiefe -= 2;
+			tiefe--;
 			if (current->groesser != nullptr) //wenn wir vom größeren kamen delete den größeren;
 				current->groesser = nullptr;
 			else
@@ -83,7 +83,7 @@ void suchbaum::knoten_ausgeben(BaumKnoten * knoten, int depth)
 
 void suchbaum::printKnoten(BaumKnoten * knoten, int tiefe)
 {
-	for (int i = 0; i < tiefe; i++)
+	for (int i = 0; i < tiefe * 2; i++)
 	{
 		cout << "+";
 	}
