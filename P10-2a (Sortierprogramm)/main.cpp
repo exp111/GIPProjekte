@@ -1,7 +1,8 @@
 // Datei: main.cpp
 #include <iostream>
-using namespace std;
 #include "sort.h"
+using namespace std;
+
 int main()
 {
 	const int N = 10;
