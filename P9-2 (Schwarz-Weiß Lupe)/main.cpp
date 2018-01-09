@@ -20,15 +20,15 @@ int main()
 					gip_set_grey(i, j, 0);
 				else
 				{
-					int r, g,b;
-					gip_color clr;
-					gip_get_color(i, j, clr);
-					gip_set_grey(i, j, (0.33 * clr[0] + 0.33 * clr[1] + 0.33 * clr[2]));
+					//gip_color clr;
+					//gip_get_color(i, j, clr);
+					//gip_set_grey(i, j, (0.33 * clr[0] + 0.33 * clr[1] + 0.33 * clr[2]));
+					gip_set_grey(i, j, gip_get_grey(i, j));
 				}
 			}
 		}
 		gip_start_updates();
-		gip_sleep(3);
+		gip_sleep(1);
 	}
 	return 0;
 }

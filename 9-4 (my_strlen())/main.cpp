@@ -18,7 +18,7 @@ unsigned int my_strlen(const char * ptr)
 int main()
 {
 	string input;
-	cout << "Bitte Text eingeben (ggfs.mit Leerzeichen): ? ";
+	cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
 	getline(cin, input);
 	cout << "Ergebnis my_strlen(): " << my_strlen(input.c_str()) << endl;
 	system("PAUSE");

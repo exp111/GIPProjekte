@@ -29,10 +29,10 @@ int main()
 {
 	char text[20], zkette[20];
 	cout << "Bitte geben Sie den Text ein: ";
-	cin >> text;
+	cin.getline(text, 20);
 
 	cout << "Bitte geben Sie die zu suchende Zeichenkette ein: ";
-	cin >> zkette;
+	cin.getline(zkette, 20);
 
 	int returnCode = zeichenkette_suchen(text, zkette);
 	if (returnCode == -1)

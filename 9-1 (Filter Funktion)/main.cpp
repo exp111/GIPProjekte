@@ -12,7 +12,7 @@ struct Person
 void filter(Person* personen, int anzahl)
 {
 	int input = 0;
-	cout << "Ihre Auswahl: " << endl;
+	cout << "Ihre Auswahl:" << endl;
 	cout << "1 - Weibliche Erwachsene" << endl;
 	cout << "2 - Maennliche Erwachsene" << endl;
 	cout << "3 - Weibliche Kinder" << endl;
@@ -61,7 +61,7 @@ char weiterAbfrage()
 	char input = 'k';
 	while (input != 'j' && input != 'n')
 	{
-		cout << "Eine weitere Person eingeben (j / n) ? ";
+		cout << "Eine weitere Person eingeben (j/n)? ";
 		cin >> input;
 		cinClear();
 	}
@@ -112,14 +112,14 @@ int main()
 	while (antwoord != 'n')
 	{
 		anzahl_personen += 1;
-		cout << "Bitte den Nachnamen der " << anzahl_personen << ". Person eingeben : ? ";
+		cout << "Bitte den Nachnamen der " << anzahl_personen << ". Person eingeben: ? ";
 		getline(cin, personen[anzahl_personen - 1].nachname);
-		cout << "Bitte den Vornamen der " << anzahl_personen << ". Person eingeben : ? ";
+		cout << "Bitte den Vornamen der " << anzahl_personen << ". Person eingeben: ? ";
 		getline(cin, personen[anzahl_personen - 1].vorname);
-		cout << "Bitte das Alter der " << anzahl_personen << ". Person eingeben : ? ";
+		cout << "Bitte das Alter der " << anzahl_personen << ". Person eingeben: ? ";
 		cin >> personen[anzahl_personen - 1].alter;
 		cinClear();
-		cout << "Bitte das Geschlecht der " << anzahl_personen << ". Person eingeben : ? ";
+		cout << "Bitte das Geschlecht der " << anzahl_personen << ". Person eingeben: ? ";
 		cin >> personen[anzahl_personen - 1].geschlecht;
 		cinClear();
 		antwoord = weiterAbfrage();

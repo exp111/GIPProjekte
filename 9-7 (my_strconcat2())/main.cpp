@@ -4,7 +4,7 @@ using namespace std;
 
 char* my_strconcat2(const char * ptr1, const char * ptr2, unsigned count)
 {
-	char output[40];
+	char* output = new char[40];
 	int pos = 0;
 
 	for (int i = 0; i < 20; i++)
@@ -47,11 +47,11 @@ int main()
 {
 	string input[2];
 	unsigned count = 0;
-	cout << "Bitte ersten Text eingeben (ggfs.mit Leerzeichen): ? ";
+	cout << "Bitte ersten Text eingeben (ggfs. mit Leerzeichen): ? ";
 	getline(cin, input[0]);
 	cout << "Bitte zweiten Text eingeben (ggfs. mit Leerzeichen): ? ";
 	getline(cin, input[1]);
-	cout << "Anzahl Zeichen ? ";
+	cout << "Anzahl Zeichen: ? ";
 	cin >> count;
 	cout << "Ergebnis my_strconcat2(): " << my_strconcat2(input[0].c_str(), input[1].c_str(), count) << endl;
 	system("PAUSE");

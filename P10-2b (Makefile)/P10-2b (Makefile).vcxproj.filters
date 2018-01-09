@@ -32,7 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="makefile">
-      <Filter>Headerdateien</Filter>
+      <Filter>Ressourcendateien</Filter>
     </None>
   </ItemGroup>
 </Project>
