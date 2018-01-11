@@ -13,9 +13,7 @@ struct w_haeufigkeit {
 unsigned int my_strlen(const char * const ptr)
 {
 	unsigned count = 0;
-	if (ptr == "")
-		return count;
-	for (int i = 0; i < 20; i++)
+	for (int i = 0; i < max_line_length; i++)
 	{
 		if (ptr[i] == 0)
 			return count;
@@ -27,7 +25,7 @@ unsigned int my_strlen(const char * const ptr)
 
 int my_strcmp(const char * ptr1, const char * ptr2)
 {
-	for (int i = 0; i < 20; i++)
+	for (int i = 0; i < max_line_length; i++)
 	{
 		if (ptr1[i] == ptr2[i])
 		{

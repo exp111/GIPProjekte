@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 	int hoehe = 0, stufenhoehe = 0;
-	cout << "Hoehe ? ";
+	cout << "Bitte die Hoehe des Tannenbaums eingeben: ? ";
 	cin >> hoehe;
-	cout << "Stufenhoehe ? "; //immer > 1 && <= hoehe
+	cout << "Bitte die Hoehe jeder Stufe eingeben: ? "; //immer > 1 && <= hoehe
 	cin >> stufenhoehe;
 
 	string canvas[100];
