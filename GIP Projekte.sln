@@ -193,6 +193,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Musterklausur", "Musterklau
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "K4 (Pruefe-Fibonacci)", "K4 (Pruefe-Fibonacci)\K4 (Pruefe-Fibonacci).vcxproj", "{99BD2F80-B385-418C-9569-463A1D7B355F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "K1", "K1\K1.vcxproj", "{47EAA426-DFB0-4DC2-B615-818D010093CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -785,6 +787,14 @@ Global
 		{99BD2F80-B385-418C-9569-463A1D7B355F}.Release|x64.Build.0 = Release|x64
 		{99BD2F80-B385-418C-9569-463A1D7B355F}.Release|x86.ActiveCfg = Release|Win32
 		{99BD2F80-B385-418C-9569-463A1D7B355F}.Release|x86.Build.0 = Release|Win32
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Debug|x64.ActiveCfg = Debug|x64
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Debug|x64.Build.0 = Debug|x64
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Debug|x86.Build.0 = Debug|Win32
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Release|x64.ActiveCfg = Release|x64
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Release|x64.Build.0 = Release|x64
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Release|x86.ActiveCfg = Release|Win32
+		{47EAA426-DFB0-4DC2-B615-818D010093CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -881,6 +891,7 @@ Global
 		{3B3FFD35-7CAD-4A54-A691-202C878E5737} = {967B912A-4BE6-4087-8D4B-81805E164C26}
 		{60807F17-F05C-4EDE-BC6D-B2A7E27F08E0} = {67CB94F8-24A3-4FD7-8E28-CB569A306197}
 		{99BD2F80-B385-418C-9569-463A1D7B355F} = {67CB94F8-24A3-4FD7-8E28-CB569A306197}
+		{47EAA426-DFB0-4DC2-B615-818D010093CE} = {67CB94F8-24A3-4FD7-8E28-CB569A306197}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}

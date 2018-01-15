@@ -29,7 +29,7 @@ int main()
 	if (pruefeFibonacci(input))
 		cout << input << " ist eine Fibonaccizahl. " << endl;
 	else
-		cout << input << " ist KEINE Fibonaccizahl. " << endl; //actually /*you have to have...*/ keine but ya know debug and fuck ya
+		cout << input << " ist KEINE Fibonaccizahl. " << endl; //actually /*you have to have...*/ 'keine' but ya know debug and fuck ya
 	system("PAUSE");
 	return 0;
 }
