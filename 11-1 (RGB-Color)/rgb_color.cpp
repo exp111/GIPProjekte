@@ -1,20 +1,6 @@
 #include "rgb_color.h"
 using namespace std;
 
-RGBColor::RGBColor()
-{
-	red = 255;
-	green = 255;
-	blue = 255;
-}
-
-RGBColor::RGBColor(int r, int g, int b)
-{
-	red = r;
-	green = g;
-	blue = b;
-}
-
 void RGBColor::set_color(int r, int g, int b)
 {
 	red = r;

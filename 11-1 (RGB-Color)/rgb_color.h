@@ -4,8 +4,9 @@
 class RGBColor
 {
 public:
-	RGBColor();
-	RGBColor(int r, int g, int b);
+	RGBColor() : red{ 255 }, green{ 255 }, blue{ 255 } {};
+	RGBColor(int r, int g, int b) : red{ r }, green{ g }, blue{ b } {};
+	RGBColor(const RGBColor& color) : red{ color.red }, green{ color.green }, blue{ color.blue } {};
 
 	void set_color(int r, int g, int b);
 
@@ -20,7 +21,6 @@ public:
 	void display();
 
 	bool isValidNumber(int val);
-	void doInputCheck(int val);
 
 	bool inputColor();
 private:

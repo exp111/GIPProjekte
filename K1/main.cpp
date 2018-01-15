@@ -4,10 +4,7 @@
 class Circle
 {
 public:
-	Circle()
-	{
-
-	}
+	Circle() { };
 
 	void draw()
 	{

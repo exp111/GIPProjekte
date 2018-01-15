@@ -11,13 +11,7 @@ public:
 
 	};
 
-	MyRectangle(int x1, int y1, int x2, int y2)
-	{
-		this->x1 = x1;
-		this->y1 = y1;
-		this->x2 = x2;
-		this->y2 = y2;
-	}
+	MyRectangle(int X1, int Y1, int X2, int Y2) : x1{ X1 }, y1{ Y1 }, x2{ X2 }, y2{ Y2 } {};
 
 //Getter & Setter for attributes
 	int getX1()
