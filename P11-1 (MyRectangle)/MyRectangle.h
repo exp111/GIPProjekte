@@ -6,10 +6,7 @@ class MyRectangle
 {
 public:
 //Constructer
-	MyRectangle()
-	{
-
-	};
+	MyRectangle() {};
 
 	MyRectangle(int X1, int Y1, int X2, int Y2) : x1{ X1 }, y1{ Y1 }, x2{ X2 }, y2{ Y2 } {};
 
@@ -58,9 +55,9 @@ public:
 		this->y2 = y2;
 	}
 //Draw Function
-	void draw()
+	void draw(const gip_color clr)
 	{
-		gip_draw_rectangle(x1, y1, x2, y2, blue);
+		gip_draw_rectangle(x1, y1, x2, y2, clr);
 	}
 //Collide Check
 	bool does_not_collide_with(MyRectangle rect)

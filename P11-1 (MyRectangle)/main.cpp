@@ -22,8 +22,8 @@ int main()
 		MyRectangle r2(x1_2, y1_2, x2_2, y2_2);
 		// Alles neu zeichnen ...
 		gip_white_background();
-		r1.draw();
-		r2.draw();
+		r1.draw(blue);
+		r2.draw(red);
 		//Kollisions-Check
 		if (r1.does_not_collide_with(r2))
 			gip_draw_text(10, 10, "Keine Kollision.");

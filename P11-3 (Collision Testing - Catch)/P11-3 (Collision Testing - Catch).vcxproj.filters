@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="colision_test.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="collision_test.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
