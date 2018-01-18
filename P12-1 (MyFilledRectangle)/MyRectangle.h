@@ -1,6 +1,6 @@
 #pragma once
 
-#include "CImgGIP05Mock.h"
+#include "CImgGIP05.h"
 
 class MyRectangle
 {
@@ -55,9 +55,9 @@ public:
 		this->y2 = y2;
 	}
 //Draw Function
-	void draw()
+	void draw(const gip_color clr)
 	{
-		gip_draw_rectangle(x1, y1, x2, y2, blue);
+		gip_draw_rectangle(x1, y1, x2, y2, clr);
 	}
 //Collide Check
 	bool does_not_collide_with(MyRectangle rect)
@@ -71,7 +71,7 @@ public:
 		return false;
 	}
 
-protected: //Attributes
+public: //Attributes
 	int x1;
 	int y1;
 	int x2;

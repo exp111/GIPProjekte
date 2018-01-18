@@ -6,7 +6,7 @@ class MyRectangle
 {
 public:
 //Constructer
-	MyRectangle() {};
+	MyRectangle() : x1{ 0 }, y1{ 0 }, x2{ 20 }, y2{ 20 } { };
 
 	MyRectangle(int X1, int Y1, int X2, int Y2) : x1{ X1 }, y1{ Y1 }, x2{ X2 }, y2{ Y2 } {};
 
@@ -72,8 +72,8 @@ public:
 	}
 
 private: //Attributes
-	int x1 = 0;
-	int y1 = 0;
-	int x2 = 20;
-	int y2 = 20;
+	int x1;
+	int y1;
+	int x2;
+	int y2;
 };
