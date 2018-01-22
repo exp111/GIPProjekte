@@ -8,11 +8,12 @@ namespace MyString2
 	class MyString2
 	{
 	public:
+		//Constructer/Deconstructer
 		MyString2() {};
 
 		MyString2(std::string string)
 		{
-			if (string.size() > 0)
+			if (string.size() <= 0)
 				return;
 
 			CharListenKnoten* current = anker;
@@ -22,25 +23,49 @@ namespace MyString2
 				{
 					CharListenKnoten* neu = new CharListenKnoten(string[i]);
 					anker = neu;
+					current = neu;
 				}
 				else
 				{
 					CharListenKnoten* neu = new CharListenKnoten(string[i]);
 					current->setNext(neu);
 					current = neu;
-					current = current->getNext();
 				}
+			}
+		}
+
+		MyString2(const MyString2 &string)
+		{
+			if (string.anker != nullptr)
+			{
+				anker = string.deep_copy_internal();
 			}
 		}
 
 		~MyString2()
 		{
-			for (int i = 0; i < length(); i++)
-			{
-				free(anker->getLast());
-			}
+			this->delete_internal();
 		}
 
+		//Operators
+		MyString2& operator =(const MyString2 &toCopy)
+		{
+			anker = new CharListenKnoten(*toCopy.anker);
+			return *this;
+		}
+
+		MyString2 operator +(char c) const
+		{
+			MyString2 copied(*this);
+			//copy this
+			//getLast
+			copied.append_internal(c);
+			//append
+			//return new one
+			return copied;
+		}
+
+		//Misc functions
 		unsigned length()
 		{
 			unsigned counter = 0;
@@ -80,15 +105,7 @@ namespace MyString2
 			{
 				s += this->at(i);
 			}
-		}
-
-		MyString2 operator +(char c) const
-		{
-			//TODO
-			//copy this
-			//getLast
-			//append
-			//return new one
+			return s;
 		}
 	private:
 		void append_internal(char p_data)
@@ -106,14 +123,25 @@ namespace MyString2
 
 		void delete_internal()
 		{
-			//TODO
+			while (anker != nullptr) {
+				CharListenKnoten* nxt = anker->getNext();
+				delete anker;
+				anker = nxt;
+			}
 		}
 
 		CharListenKnoten* deep_copy_internal() const
 		{
-			//TODO
+			if (anker != nullptr) {
+				return new CharListenKnoten(*anker);
+			}
+			else {
+				return new CharListenKnoten;
+			}
 		}
 
 		CharListenKnoten* anker = nullptr;
+
+
 	};
 }

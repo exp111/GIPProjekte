@@ -19,7 +19,7 @@ public:
 		{
 			for (int i = getY1() + 3; i < getY2() - 2; i++)
 			{
-				gip_draw_line(getX1() + 3, i, getX2() - 2, i, insideColor);
+				gip_draw_line(getX1() + 3, i, getX2() - 3, i, insideColor);
 			}
 		}
 	}

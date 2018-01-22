@@ -5,14 +5,43 @@ namespace MyString2
 	class CharListenKnoten
 	{
 	public:
+		CharListenKnoten() = default;
 		CharListenKnoten(char c) : data{ c } { };
+		~CharListenKnoten() {};
+
+		CharListenKnoten(const CharListenKnoten &copy) {
+			data = copy.data;
+			if (copy.next != nullptr) {
+				next = new CharListenKnoten;
+				*next = *copy.next;
+			}
+			else {
+				next = nullptr;
+			}
+		}
+
+		CharListenKnoten &operator=(const CharListenKnoten &toCopy) {
+			if (toCopy.next == nullptr) 
+			{
+				data = toCopy.data;
+				next = nullptr;
+				return *this;
+			}
+			else 
+			{
+				data = toCopy.data;
+				next = new CharListenKnoten;
+				*next = *toCopy.next;
+				return *this;
+			}
+		}
 
 		CharListenKnoten* getLast()
 		{
 			CharListenKnoten* last = this;
-			while (next != nullptr)
+			while (last->next != nullptr)
 			{
-				last = next;
+				last = last->next;
 			}
 			return last;
 		}
@@ -22,7 +51,7 @@ namespace MyString2
 			return next;
 		}
 
-		CharListenKnoten* setNext(CharListenKnoten* neu)
+		void setNext(CharListenKnoten* neu)
 		{
 			next = neu;
 		}
