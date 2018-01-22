@@ -61,6 +61,11 @@ namespace MyString2
 			return data;
 		}
 
+		void setData(char d)
+		{
+			data = d;
+		}
+
 	private:
 		char data;
 		CharListenKnoten* next = nullptr;

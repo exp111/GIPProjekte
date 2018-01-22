@@ -112,8 +112,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mystring2_unit_tests.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="catch.h" />
     <ClInclude Include="CharListenKnoten.h" />
     <ClInclude Include="MyString2.h" />
   </ItemGroup>

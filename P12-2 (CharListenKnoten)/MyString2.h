@@ -88,12 +88,13 @@ namespace MyString2
 			CharListenKnoten* current = anker;
 			for (int i = 0; i < pos; i++)
 			{
+				if (current == nullptr) //we can't call getNext if current is a nullptr so just return the default value (\0)
+					return '\0';
 				current = current->getNext();
 			}
 
-			char data = current->getData();
-			if (data)
-				return data;
+			if (current != nullptr) 
+				return current->getData();
 			else
 				return '\0';
 		}
@@ -107,7 +108,7 @@ namespace MyString2
 			}
 			return s;
 		}
-	private:
+		public:
 		void append_internal(char p_data)
 		{
 			CharListenKnoten* neu = new CharListenKnoten{ p_data };

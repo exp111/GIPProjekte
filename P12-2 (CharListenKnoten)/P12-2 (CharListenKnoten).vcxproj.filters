@@ -18,12 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="mystring2_unit_tests.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharListenKnoten.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="MyString2.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="catch.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

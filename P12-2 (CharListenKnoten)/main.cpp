@@ -1,9 +1,13 @@
 // Datei: main.cpp
 #include <iostream>
 #include <string>
+#define CATCH_CONFIG_RUNNER
+#include "catch.h"
 #include "MyString2.h"
-int main()
+int main(int argc, char* const argv[])
 {
+	int result = Catch::Session().run(argc, argv);
+	// cout << "Resultatwert: " << result << endl;
 	std::string eingabe_text = "";
 	std::cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
 	std::getline(std::cin, eingabe_text);
