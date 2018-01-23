@@ -103,12 +103,11 @@ namespace MyString2
 		{
 			std::string s;
 			for (unsigned i = 0; i < length(); i++)
-			{
-				s += this->at(i);
-			}
+				s += at(i);
+			
 			return s;
 		}
-		public:
+/*private*/	public: //public because of catch.h tests
 		void append_internal(char p_data)
 		{
 			CharListenKnoten* neu = new CharListenKnoten{ p_data };

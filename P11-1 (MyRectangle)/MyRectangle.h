@@ -62,13 +62,7 @@ public:
 //Collide Check
 	bool does_not_collide_with(MyRectangle rect)
 	{
-		if (x1 > rect.getX2() || x2 < rect.getX1())
-			return true;
-
-		if (y1 > rect.getY2() || y2 < rect.getY1())
-			return true;
-
-		return false;
+		return x1 > rect.getX2() || x2 < rect.getX1() || y1 > rect.getY2() || y2 < rect.getY1();
 	}
 
 private: //Attributes

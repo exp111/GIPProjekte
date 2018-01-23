@@ -21,9 +21,11 @@ int main()
 		int y2_2 = gip_random(y1_2, gip_win_size_y - 1);
 		MyFilledRectangle r2(x1_2, y1_2, x2_2, y2_2);
 		// Alles neu zeichnen ...
+		gip_stop_updates();
 		gip_white_background();
 		r1.draw(blue);
 		r2.draw(red);
+		gip_start_updates();
 		//Kollisions-Check
 		if (r1.does_not_collide_with(r2))
 			gip_draw_text(10, 10, "Keine Kollision.");

@@ -13,7 +13,7 @@ public:
 
 	void draw(const gip_color clr)
 	{
-		((MyRectangle*)this)->draw(clr);
+		MyRectangle::draw(clr);
 		gip_color insideColor = { 255 - clr[0], 255 - clr[1], 255 - clr[2] }; //inverted; pretty ugly tho
 		if (x2 - x1 > 4 && y2 - y1 > 4)
 		{
