@@ -1,0 +1,2 @@
+C++ ist eine von der ISO standardisierte höhere Programmiersprache. 
+Sie wurde ab 1979 von Bjarne Stroustrup bei AT&T als Erweiterung der Programmiersprache C entwickelt.

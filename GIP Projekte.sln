@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-1 (Hallo Welt)", "GIP Projekte\GIP Projekte.vcxproj", "{4484443A-A575-43E8-96A0-538A445C016C}"
 EndProject
@@ -200,6 +200,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P12-1 (MyFilledRectangle)", "P12-1 (MyFilledRectangle)\P12-1 (MyFilledRectangle).vcxproj", "{9B4F88F8-6250-4DB1-8E6E-214C0BBC7207}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P12-2 (CharListenKnoten)", "P12-2 (CharListenKnoten)\P12-2 (CharListenKnoten).vcxproj", "{447694A1-8644-465F-907A-33B17329A4A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "K2012A7", "K2012A7\K2012A7.vcxproj", "{782E2C57-6682-455E-9D92-2BC5ACCA83A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -817,6 +819,14 @@ Global
 		{447694A1-8644-465F-907A-33B17329A4A4}.Release|x64.Build.0 = Release|x64
 		{447694A1-8644-465F-907A-33B17329A4A4}.Release|x86.ActiveCfg = Release|Win32
 		{447694A1-8644-465F-907A-33B17329A4A4}.Release|x86.Build.0 = Release|Win32
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Debug|x64.ActiveCfg = Debug|x64
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Debug|x64.Build.0 = Debug|x64
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Debug|x86.Build.0 = Debug|Win32
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Release|x64.ActiveCfg = Release|x64
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Release|x64.Build.0 = Release|x64
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Release|x86.ActiveCfg = Release|Win32
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -917,6 +927,7 @@ Global
 		{2579D5E6-B00B-40EF-8D28-70CAB8D540F6} = {C379BA3E-F1AA-41DC-BA40-086663E5342B}
 		{9B4F88F8-6250-4DB1-8E6E-214C0BBC7207} = {2579D5E6-B00B-40EF-8D28-70CAB8D540F6}
 		{447694A1-8644-465F-907A-33B17329A4A4} = {2579D5E6-B00B-40EF-8D28-70CAB8D540F6}
+		{782E2C57-6682-455E-9D92-2BC5ACCA83A0} = {67CB94F8-24A3-4FD7-8E28-CB569A306197}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22E23BF5-AA58-43FE-B1F7-504EA5D88693}
